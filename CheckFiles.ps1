@@ -1,6 +1,6 @@
 # Define the source and destination directories
-$source = "C:\Source"
-$destination = "C:\Destination"
+$source = "C\Source"
+$destination = "C\Destination"
 
 # Define the smoke test
 Describe "File copy smoke test" {
