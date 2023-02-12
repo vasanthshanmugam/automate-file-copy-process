@@ -1,0 +1,10 @@
+name: copy files to destination
+  hosts: localhost
+  connection: local
+  tasks:
+-     name: copy src.txt as dest.txt in the same dir 
+      copy:
+      src: c:/Source/src.txt
+      dest: c:/Source/dest.txt
+      tags:
+        - simple_copy
